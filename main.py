@@ -1,4 +1,9 @@
+#these are build-in libraries
 import platform
+import sys
+
+
+#these libraries need to be downloaded
 import pandas as pd
 
 
@@ -12,7 +17,7 @@ if python_version == "3.10.6" :
 
 else:
 	print(f"I am using another Python Version {python_version}")
-
+	sys.exit()
 
 dictionary = {"tom":[3,13], "sher":[3, 7], "bobo":[7, 8]}
 
