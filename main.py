@@ -5,7 +5,7 @@ import sys
 
 #these libraries need to be downloaded
 import pandas as pd
-
+import matplotlib.pyplot as plt
 
 
 
@@ -26,6 +26,6 @@ print(pd.DataFrame(dictionary))
 
 
 
-
-
-
+plt.plot([1,2,3,4])
+plt.ylabel("sherman")
+plt.show()
